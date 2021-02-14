@@ -4,15 +4,49 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css" integrity="sha512-esCylxvZEDuZ+3L2JRa6wYVNDihaDw5fDBUPZ9X9igrCIMHILsPiR4A7+dKmqqzvvIH8lzRlRV4b4V7Q9es/ew==" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.css" integrity="sha512-Cn5/xnOLSKjVpNCsJZCtgQhxp00FcFnlRwgbSG7WGFq1BVvyG+LoOarjXAq//8Vstyu0Na9wvEKLWR67/wAy3w==" crossorigin="anonymous"/>
+    <script src="https://kit.fontawesome.com/abb7dd614d.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap" rel="stylesheet">
     <title>Image Slider</title>
   </head>
   <body>
-    
+    <div class="main">
+      <div class="col-4">
+        <h1>Dubai</h1>
+        <p>Cubilia sit per semper rhoncus porta. Id potenti blandit dictum placerat
+          ornare elementum eleifend pellentesque mauris. Hymenaeos. Habitant. Cras faucibus.
+          Hac, leo Pulvinar nonummy euismod pretium accumsan mauris platea iaculis.</p>
+          <p class="mobile">Cubilia sit per semper rhoncus porta.</p>
+          <a href="#">Read More</a>
+      </div>
+      <div class="col-8">
+
+        <div class="glide">
+          <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+              <li class="glide__slide"><img src="img/slide1.jpg"></li>
+              <li class="glide__slide"><img src="img/slide2.jpg"></li>
+              <li class="glide__slide"><img src="img/slide3.jpg"></li>
+              <li class="glide__slide"><img src="img/slide4.jpg"</li>
+              <li class="glide__slide"><img src="img/slide5.jpg"></li>
+            </ul>
+          </div>
+          <div class="glide__arrows" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><i class="fa fa-angle-left"></i></button>
+            <button class="glide__arrow glide__arrow--right" data-glide-dir=">"><i class="fa fa-angle-right"></i></button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+<footer>
+  &copy Darrel Everett Butler 2021
+</footer>
 
 
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js" integrity="sha512-BXASbMmKLu+RC5TDnkupyhvrjiOQXILh/5zgIS8k5JAC71a73lNweVEg/X+9XJQ7GK22PH9WpztY3zqrji+xrQ==" crossorigin="anonymous"></script>
     <script src="main.js"> </script>
   </body>
 </html>
