@@ -104,6 +104,10 @@ img {
   filter: brightness(100%);
 }
 
+.m-text {
+  display: none;
+}
+
 footer {
   margin-top: 555px;
 }
@@ -134,6 +138,15 @@ footer {
     margin-top: 24px;
     margin-left: -6px;
     font-size: 8px;
+  }
+
+  .m-text {
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 100px;
+    margin-bottom: 55px;
+    font-weight: 400;
   }
 
   img {
