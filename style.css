@@ -109,7 +109,7 @@ footer {
 }
 
 
-@media screen and (max-width: 700px) {
+@media screen and (min-width: 500px) {
   .col-4 h1 {
     font-size: 18px;
     border-bottom: 3px solid #3f51b515;
@@ -149,4 +149,10 @@ footer {
 .glide__arrows .glide__arrow.glide__arrow--left{
   left: 110px;
 }
+
+footer {
+  margin-top: 755px;
+  
+}
+
 }
